@@ -123,6 +123,7 @@ footer{
 .project-header {
   font-size: 2rem;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 5px black;
 }
 .project-grid {
   display: grid;
