@@ -40,7 +40,7 @@ body {
   height: 100%;
 }
 #projects {
-  background-color: grey;
+  background-color: linear-gradient(135deg, #DB6A6C, #F3C6B8);
 }
 .contact-links {
   display: flex;
