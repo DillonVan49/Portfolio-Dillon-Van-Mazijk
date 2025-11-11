@@ -105,6 +105,6 @@ footer{
 }
 .contact-detail-links:hover {
   transform: scale(1.05) translateY(-3px);
-  text-shadow: 0 0 5px #00acee, 0 0 10px #00acee;
+  text-shadow: 0 0 5px #DB6A6C, 0 0 10px #DB6A6C;
 }
 
