@@ -40,7 +40,7 @@ body {
   height: 100%;
 }
 #projects {
-  background-color: lightblue
+  background-color: grey;
 }
 .contact-links {
   display: flex;
