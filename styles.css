@@ -170,5 +170,44 @@ footer{
   text-decoration: none;
   transition: color 0.3s ease;
 }
+/* mobile cater */
+@media (max-width: 900px) {
+  .logo a {
+    font-size: 3rem; /* slightly smaller logo */
+  }
+
+  .top-clickies {
+    font-size: 20px; /* smaller link text */
+    padding: 0 10px;
+  }
+
+  .nav {
+    padding: 0 20px; /* less side padding */
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column; /* stack logo and links vertically */
+    height: auto; /* let the nav expand naturally */
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .logo a {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column; /* stack links vertically */
+    gap: 10px;
+  }
+
+  .top-clickies {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+}
 
 
