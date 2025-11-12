@@ -24,20 +24,22 @@ body {
   background-color: #DB6A6C;
   width: 100%;
   position: fixed;
-  height:80px;
-  align-items: center;
+  top: 0;
+  left: 0;
+  height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;            /* center vertically */
+  padding: 0 40px;
+  z-index: 1000;
   
 }
 .nav-list {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  justify-content: flex-end;
   gap: 20px;
-  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 #projects {
   background: linear-gradient(135deg, #DB6A6C, #F3C6B8);
@@ -79,17 +81,15 @@ a {
 }
 .top-clickies {
   color: white;
-  text-decoration: none;
-  cursor: pointer;
   font-size: 25px;
+  text-decoration: none;
   display: flex;
   align-items: center;
-  height: 100%;
   padding: 0 15px;
+  height: 100%;
 }
 .top-clickies:hover {
   background-color: grey;
-  height: 100%;
 }
 .contact-detail-links{
   display: inline-flex;
@@ -166,7 +166,7 @@ footer{
 .logo a {
   font-size: 4rem;
   font-weight: 700;
-  color: #303942;
+  color: #303942; /* nice contrast on pink */
   text-decoration: none;
   transition: color 0.3s ease;
 }
