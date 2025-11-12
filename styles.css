@@ -90,6 +90,7 @@ a {
 }
 .top-clickies:hover {
   background-color: grey;
+  height: 100%;
 }
 .contact-detail-links{
   display: inline-flex;
