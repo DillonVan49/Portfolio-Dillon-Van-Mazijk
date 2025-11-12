@@ -164,11 +164,17 @@ footer{
 }
 /* Logo section */
 .logo a {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   color: #303942;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease; /* animation for later maybe? */
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 1000;
 }
 
 
