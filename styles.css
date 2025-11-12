@@ -27,7 +27,7 @@ body {
   height:80px;
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   
 }
 .nav-list {
@@ -168,14 +168,7 @@ footer{
   font-weight: 700;
   color: #303942;
   text-decoration: none;
-  transition: color 0.3s ease; /* animation for later maybe? */
-  position: fixed;
-  top: 0;
-  left: 0;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 40px;
-  z-index: 1000;
+  transition: color 0.3s ease;
 }
 
 
