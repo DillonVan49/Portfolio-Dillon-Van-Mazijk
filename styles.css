@@ -88,6 +88,14 @@ a {
   margin-top: 10px;
   opacity: 0.8;
 }
+#contact-details h2 {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.coffee2 {
+  font-size: 30px;
+  margin-top: 0;
+}
 
 /* ===== Projects Section ===== */
 #projects {
@@ -224,6 +232,14 @@ footer {
 
   .about-comment {
     font-size: 14px;
+  }
+
+  #contact-details h2 {
+    font-size: 40px;
+  }
+
+  .coffee2 {
+    font-size: 22px;
   }
 
   .project-grid {
