@@ -168,6 +168,9 @@ a {
   transform: scale(1.05) translateY(-3px);
   text-shadow: 0 0 5px #DB6A6C, 0 0 10px #DB6A6C;
 }
+#contact-details {
+  margin-bottom: 25px; /*adding a bit of space between footer and links */
+}
 
 /* ===== Footer ===== */
 footer {
