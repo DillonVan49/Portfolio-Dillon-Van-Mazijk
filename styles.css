@@ -91,10 +91,12 @@ a {
 #contact-details h2 {
   font-size: 60px;
   margin-bottom: 5px;
+  text-align: center;
 }
 .coffee2 {
   font-size: 30px;
   margin-top: 0;
+  text-align: center;
 }
 
 /* ===== Projects Section ===== */
